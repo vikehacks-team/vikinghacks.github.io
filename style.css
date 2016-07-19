@@ -1,0 +1,58 @@
+body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+}
+
+button {
+	border: 0px solid #444;
+	background: #3F51B5;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	margin: 10px;
+	font-family: Verdana;
+	transition: 0.5s ease all;
+}
+
+button:hover {
+	border: 0px solid #444;
+	background: #FF4081;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	font-family: Verdana;
+}
+
+.About, .Schedule, .FAQ, .Sponsorship {
+	display: inline;
+
+}
+
+.navItem {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.menu-bar {
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+a:link, a:visited, a:active {
+	color: #3F51B5;
+}
+
+a:hover {
+	color: #FF4081;
+
+}
+/*a {
+	transition: 0.5s ease all;
+}*/
+
