@@ -93,7 +93,7 @@ text-black{
 .nav {
   position: fixed;
   z-index: 999;
-  background: #E0FDFF;
+  background: #05233F;
   padding: 15px;
   width: 100%;
   top: 0;
@@ -103,7 +103,7 @@ text-black{
 }
 
 .nav > a {
-  colors: #EEE5E9;
+  colors: #C1E1FF;
   padding: 0 15px;
   float: right;
 }
