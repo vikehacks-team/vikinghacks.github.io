@@ -117,15 +117,15 @@ img {
   background: #f9f9f9;
 }
 
-section-blue {
+.section-blue {
   background: #05233F;
 }
 
-section-blue > * {
+.section-blue > * {
   color: #C1E1FF !important; 
 }
 
-section-black {
+.section-black {
   background: #333;
 }
 
