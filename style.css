@@ -52,14 +52,14 @@ p {
 }
 
 a, a:link, a:visited, a:active {
-  color: #fff;
+  color: #0091EA;
   text-decoration: none;
 }
 
 a:hover {
   color: #29aeff;
 }
-
+  
 button {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
