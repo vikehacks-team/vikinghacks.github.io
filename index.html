@@ -73,12 +73,7 @@
 </div>
 </div>
 
-
-
-
-<!-- add something about functions --> 
-
-<div id="app" " class="container-fluid bg-grey">
+<div id="app" class="container-fluid bg-grey">
   <div class="row">
     
     <div class="col-sm-8">
@@ -203,36 +198,6 @@
 </div>
 
 
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-   // Make sure this.hash has a value before overriding default behavior
-  if (this.hash !== "") {
-
-    // Prevent default anchor click behavior
-    event.preventDefault();
-
-    // Store hash
-    var hash = this.hash;
-
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 900, function(){
-
-      // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-      });
-    } // End if
-  });
-})
-</script>
-
-
-
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
@@ -242,4 +207,83 @@ $(document).ready(function(){
 
 </body>
 </html>
-<!-- --></div>
+<!--commented out 
+<html>
+<head>
+  <title>VikingHacks</title>
+  <!-- 16 + (6 / 2) = 24
+  20 + (20 / 2) = 30 -->
+  <!-- <link rel="stylesheet" href="http://basehold.it/30"> -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Yatra+One" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body id="home">
+  <div class="container">
+
+    <div class="nav">
+      <a class="smooth-scroll" href="#d">Sponsors</a>
+      <a class="smooth-scroll" href="#c">Schedule</a>
+      <a class="smooth-scroll" href="#b">FAQ</a>
+      <a class="smooth-scroll" href="hackathons.html">Hackathons</a>
+      <a class="smooth-scroll" href="#home">Home</a>
+   </div>
+
+    <div class="section">
+      <center>
+        <h1>VikingHacks</h1>
+        <h3> @ Lynbrook High School</h3>
+        <button><a href ="https://docs.google.com/forms/d/e/1FAIpQLSfNNBlbUbiNHCasmwjR4BVSpG9hLbIfNV0OczIS70KUO-QvEw/viewform"> Join our Club! </a></button>
+        <button>Sponsor Us</button>
+      </center>
+    </div>
+    
+    <div class="section section-gray">
+      <center>
+        <h2 id="a">About</h2>
+        <p> Viking Hacks is a club dedicated to help prepare students for hackathons, and we will hold our own hackathon as well. Hackathons are events where people meet to engage in collaborative computer programming in order to create a product. </p>
+      </center>
+    </div>
+
+    <div class="section">
+      <center>
+        <h2> Workshops </h2>
+	<h3> What is its purpose? <h3> 
+	<p class="tab"> Do you want to participate in a hackathon, but don't believe you're ready? Do you have an idea, but lack the programming skills needed to execute it? Do you like hackathons, but find that you can't finish your project? </p>
+	<p class="tab"> If you said yes to any of the questions above, you should come to one of our workshops. At these workshops, mentors can help people who need help with their projects. 
+		        We also hold an end-of-year showcase so that those who were unable to present their projects at our hackathons or have added new features to their projects can display their project as well. </p>
+      </center>
+    </div>
+
+    <div class="section section-gray">
+      <center>
+        <h2 id="b"> Hackathons </h2>
+	<p> Each year, we hold a hackathon in the spring and another in the fall. </p>
+	<p> To learn more or sponsor us, click on the buttons below</p>
+	<button> <a href="hackathons.html">  Learn More ! </a> </button>
+	<button> <a> Sponsor us! </a> </button>
+      </center>
+    </div>
+
+    <div class="section section-black">
+      <center>
+        <h2 id="d">Sponsors</h2>
+        <p><em>// TBD</em></p>
+      </center>
+    </div>
+
+    <div class="footer">
+      <center>
+        <a href="#"><i class="ion"></i></a>
+        <a href="#"><i class="ion"></i></a>
+        <a href="#"><i class="ion"></i></a>
+        <a href="#"><i class="ion"></i></a>
+        <p><small>Made at LHS</small></p>
+      </center>
+    </div>
+
+  </div> <!-- container -->
+</body>
+</html>
+end of comment-->
