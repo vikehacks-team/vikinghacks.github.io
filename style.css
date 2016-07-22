@@ -103,7 +103,7 @@ text-black{
 }
 
 .nav > a {
-  colors: #C1E1FF;
+  color: #C1E1FF;
   padding: 0 15px;
   float: right;
 }
