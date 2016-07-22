@@ -122,11 +122,15 @@ text-black{
   background: #f9f9f9;
 }
 
-.section-green {
-  background: #ABFF96;
+section-blue {
+  background: #05233F;
 }
 
-.section-black {
+section-blue > * {
+  color: #C1E1FF; 
+}
+
+section-black {
   background: #333;
 }
 
