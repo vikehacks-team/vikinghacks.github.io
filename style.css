@@ -123,6 +123,9 @@ img {
 .section-black > * {
   color: #f9f9f9 !important;
 }
+.tab{
+  text-indent:40px; 
+}
 
 @media only screen and (max-width: 500px) {
   .container {
