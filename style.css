@@ -75,6 +75,7 @@ button {
 }
 
 button:hover {
+  border: 2px solid white;
   color: #fff;
   background: #0091EA;
   border: 2px solid #0091EA;
@@ -118,7 +119,7 @@ img {
 }
 
 .section-blue {
-  background: #05233F;
+  background: #002E59;
 }
 
 .section-blue > * {
