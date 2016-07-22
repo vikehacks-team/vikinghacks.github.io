@@ -85,6 +85,11 @@ img {
   height: auto;
 }
 
+text-black{
+  color: #000;
+  
+}
+
 .nav {
   position: fixed;
   z-index: 999;
