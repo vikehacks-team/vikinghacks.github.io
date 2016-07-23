@@ -102,10 +102,6 @@ img {
   padding: 0 15px;
   float: right;
 }
-.nav a:hover{
-  background-color: #C1E1FF !important;
-  color: #05233F !important;
-}
 
 .section, .footer {
   padding: 60px 0;
