@@ -115,10 +115,12 @@ img {
 
 .section-gray {
   background: #f9f9f9;
+  padding: 60px 0;
 }
 
 .section-blue {
   background: #002E59;
+  padding: 60px 0;
 }
 
 .section-blue > * {
@@ -127,6 +129,7 @@ img {
 
 .section-black {
   background: #333;
+  padding: 60px 0;
 }
 
 .section-black > * {
