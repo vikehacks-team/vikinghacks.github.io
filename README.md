@@ -56,7 +56,7 @@ Update from VikingHacks/master button we talked about earlier)
 ![image here](https://cloud.githubusercontent.com/assets/5069354/18412894/b955ef08-774e-11e6-9b8f-d603b0f7ff76.png)
 - Now just sit back and wait until the VP of Tech takes a look at it
 
-If you have any questions, feel free to contact the VP of Tech, avinash Jain,
+If you have any questions, feel free to contact the VP of Tech, Avinash Jain,
 or myself, Aubhro Sengupta.
 
 
